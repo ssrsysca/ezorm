@@ -60,11 +60,17 @@ if err == nil {
 }
 ```
 use
+
   ezorm -h
+
 for more help
+
   ezorm genmsyaml -d="server=...;user id=...;password=...;DATABASE=..." -t=...  -o=...  -p=...
+
 to generate yaml file
-  ezorm genmsorm -d="server=...;user id=...;password=...;DATABASE=..." -t=...  -o=...  -p=...
-to generate orm go file directly
+
+  ezorm genmsorm -d="server=...;user id=...;password=...;DATABASE=..." -t=...  -o=... -y=... -p=...
+
+to generate orm go files and yaml file
 
 
